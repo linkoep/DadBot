@@ -7,9 +7,9 @@ Using the excellent series of tutorials [here](https://www.youtube.com/playlist?
 Partially inspired by, but not affiliated with [Discord Dad Bot](https://bots.discord.pw/bots/247852652019318795)
 
 ### Future Goals
-- [ ] Make bot actually reply to user rather than tweeting at them
+- [x] Make bot actually reply to user rather than tweeting at them
 - [ ] Broaden Search to "I'm, i'm, Im, im"
-- [ ] Refine search to exclude replies and retweets
+- [x] Refine search to exclude replies and retweets
 - [ ] Run bot as stream (constantly replying rather than only when run locally
 
 ### Usage

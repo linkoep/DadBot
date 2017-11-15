@@ -9,11 +9,11 @@ DadTweet();
 setInterval(DadTweet, 37*1000);
 
 function DadTweet() {
-	//  search twitter for tweets containing the word 'I'm'
+	// search twitter for tweets containing the word 'I'm'
 	//Filters out retweets, unsafe content, 
 	//focuses on what twitter deems as "positive"
 	var search_params = { 
-		q: 'I\'m -filter:retweets filter:safe -filter:yeu :)',
+		q: 'I\'m -filter:retweets filter:safe -filter:yeu -filter:@mentions :)',
 		lang: 'en', 
 		count: 10 
 	};
