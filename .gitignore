@@ -1,0 +1,4 @@
+node_modules/
+
+#storing my authentication seperately
+config.js

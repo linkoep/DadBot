@@ -1,0 +1,22 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "My attempt to make a twitter bot that exclusively tweets dad jokes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linkoep/DadBot.git"
+  },
+  "author": "Linus Koepfer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linkoep/DadBot/issues"
+  },
+  "homepage": "https://github.com/linkoep/DadBot#readme",
+  "dependencies": {
+    "twit": "^2.2.9"
+  }
+}
