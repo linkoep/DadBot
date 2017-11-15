@@ -23,4 +23,7 @@ Partially inspired by, but not affiliated with [Discord Dad Bot](https://bots.di
 1. Run the bot 
 
         node index.js
-   1. Hopefully this will soon start a stream externally rather than running the code once
+   1. This starts running the bot, tweeting once every 37 seconds to stay under twitter's rate limit.
+   
+      Currently, the program will only end when twitter blocks the application from tweeting
+   1. To stop running the bot yourself, kill the terminal process (ctrl+C)
