@@ -46,7 +46,7 @@ function DadTweet() {
 						function postedTweet(err, data, response) {
 						  if (err) {
 						  	if (err.code == 187) {
-						  		console.log("Attempted to tweet duplicated");
+						  		console.log("Attempted to tweet duplicate");
 						  	} else if (err.code == 261) {
 						  		console.log("Twitter blocked aplication write access");
 						  		exit(1);
