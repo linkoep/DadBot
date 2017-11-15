@@ -42,12 +42,20 @@ function DadTweet() {
 						};
 						T.post('statuses/update', post_params, postedTweet);
 
-						//WHat to do after tweeting
+						//What to do after tweeting
 						function postedTweet(err, data, response) {
 						  if (err) {
-						  	console.log(err);
+						  	if (err.code == 187) {
+						  		console.log("Attempted to tweet duplicated");
+						  	} else if (err.code == 261) {
+						  		console.log("Twitter blocked aplication write access");
+						  		exit(1);
+						  	} else {
+						  		console.log(err);
+						  	}
+						  } else {
+						  	console.log("Tweet posted");
 						  }
-						  console.log("Tweet posted");
 						}
 						break;
 					}
