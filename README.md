@@ -12,11 +12,11 @@ Using the excellent series of tutorials [here](https://www.youtube.com/playlist?
 ### Usage
 ##### If for some reason you want to host another copy of this bot
 1. Clone/Download Repo
-1. Install packages (twit API)
+1. Install packages ([twit API](https://github.com/ttezel/twit))
 
 
         npm install
-1. Get [authentication](apps.twitter.com) and follow further instructions in empty_config.js
+1. Get [authentication](https://apps.twitter.com/) and follow further instructions in empty_config.js
 1. Run the bot 
 
         node index.js
